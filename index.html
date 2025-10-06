@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel KPI Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hotel KPI Calculator</h1>
+
+    <div class="inputs">
+      <label>
+        Total Rooms Available:
+        <input type="number" id="totalRooms" placeholder="e.g. 100" min="0">
+      </label>
+
+      <label>
+        Rooms Sold:
+        <input type="number" id="roomsSold" placeholder="e.g. 80" min="0">
+      </label>
+
+      <label>
+        Total Room Revenue ($):
+        <input type="number" id="totalRevenue" placeholder="e.g. 12000" min="0" step="0.01">
+      </label>
+    </div>
+
+    <hr>
+
+    <div class="outputs">
+      <h2>Calculated KPIs</h2>
+
+      <div class="output-row">
+        <span>Occupancy Rate:</span>
+        <strong id="occupancy">N/A</strong>
+      </div>
+
+      <div class="output-row">
+        <span>Average Daily Rate (ADR):</span>
+        <strong id="adr">N/A</strong>
+      </div>
+
+      <div class="output-row">
+        <span>Revenue Per Available Room (RevPAR):</span>
+        <strong id="revpar">N/A</strong>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
