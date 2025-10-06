@@ -42,7 +42,7 @@ hotel-kpi-calculator/
 | RevPAR | 12,000 / 100 | $120.00 |
 
 ## 🌐 Live Demo
-[👉 https://hotel-kpi-calculator.netlify.app/](#)
+https://hotel-kpi-calculator.netlify.app/
 
 ## 🧑‍💻 Author
 **Shoaib Ahmad**  
@@ -56,5 +56,5 @@ Web Developer Practical Assessment – Bezla.com
 | RevPAR | 12,000 / 100 | $120.00 |
 
 ## 🌐 Live Demo
-[👉 https://hotel-kpi-calculator.netlify.app/](#)
+https://hotel-kpi-calculator.netlify.app/
 
